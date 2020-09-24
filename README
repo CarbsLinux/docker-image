@@ -1,0 +1,11 @@
+carbslinux docker image
+-----------------------
+
+Docker image for Carbs Linux, generated from the latest rootfs tarball. To
+build the image you can run:
+
+    make download
+    make
+
+If you want to install docker on Carbs Linux, obtain the docker repository
+from https://github.com/cemkeylan/cpt-docker
